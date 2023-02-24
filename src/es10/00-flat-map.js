@@ -1,9 +1,10 @@
 //flat
 const array = [1,1,2,3,4 ,[1,3,4,[1,2,4]]];
+const array1 = [1,1,2,3,4 ,[1,3,4,[1,2,4]]];
 const newArray = array.flat(2);
 
-
 console.log(array[5][3]);
+console.log(array1.flat(Infinity));
 console.log(newArray);
 
 console.log(newArray[10]);
